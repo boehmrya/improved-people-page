@@ -1,0 +1,4 @@
+name = Improved People Page
+description = adds information to the default people page
+core = 7.x
+files[] = improved_people_page.module

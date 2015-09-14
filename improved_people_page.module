@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * A module that modifies the default people page to add additional information
+ *
+ */
+
+
+/**
+ * Implements hook_menu_alter().
+ */
+function improved_people_page_menu_alter(&$items) {
+  drupal_debug($items);
+}
